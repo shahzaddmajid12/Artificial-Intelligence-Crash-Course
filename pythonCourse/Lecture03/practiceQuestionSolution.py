@@ -18,7 +18,7 @@ item10=float(input("Enter Item10 Price: "))
 
 print("_"*30)
 total= item1+item2+item3+item4+item5+item6+item7+item8+item9+item10
-actualAmount=""
+# actualAmount=""
 print("Item Total: ", total)
 print("_"*30)
 

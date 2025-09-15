@@ -25,20 +25,20 @@ if userEmail==userEmailLogin and userPass== userPassLogin:
     math=float(input("Enter Your Math Marks: "))
 
     obtained=eng+urdu+math
-    meriPercemtage=obtained/300*100
+    meriPercentage=obtained/300*100
     print("Obatined Marks = ", obtained)
-    print("Percentage = ", meriPercemtage, "%")
-    if meriPercemtage<=100 and meriPercemtage>=80:
+    print("Percentage = ", meriPercentage, "%")
+    if meriPercentage<=100 and meriPercentage>=80:
         print("Grade A1 MashaAllah ")
-    elif meriPercemtage<=79 and meriPercemtage>=70:
+    elif meriPercentage<=79 and meriPercentage>=70:
         print("Grade A ")
-    elif meriPercemtage<=69 and meriPercemtage>=60:
+    elif meriPercentage<=69 and meriPercentage>=60:
         print("Grade B ")
-    elif meriPercemtage<=59 and meriPercemtage>=50:
+    elif meriPercentage<=59 and meriPercentage>=50:
         print("Grade C ")
-    elif meriPercemtage<=49 and meriPercemtage>=40:
+    elif meriPercentage<=49 and meriPercentage>=40:
         print("Grade D  ")
-    elif meriPercemtage<=39 and meriPercemtage>=30:
+    elif meriPercentage<=39 and meriPercentage>=30:
         print("Grade F ")
     else:
         print("Try Again")
@@ -68,6 +68,7 @@ if userEmail==userEmailLogin and userPass== userPassLogin:
     else:
         print(num1, " is positive")
 
+    print("*"*25)
     print("Positive") if num1>0 else print("Negative")
 
 
