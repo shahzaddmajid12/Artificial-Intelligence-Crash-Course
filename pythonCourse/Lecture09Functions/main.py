@@ -1,5 +1,3 @@
-# main.py
-
 # This function 'username' takes one argument 'name' and prints it as the student's name
 def username(name):
     # Printing the student's name
